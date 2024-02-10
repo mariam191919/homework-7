@@ -16,7 +16,9 @@
      gap: 44px;
 
     }
-    
+    .media-left{
+
+    }
     .flex {
         flex-direction: column;
     }
@@ -27,6 +29,11 @@
         width: 100%;
         display: flex;
         column-gap: 129px;
+    }
+    .left-p{
+        width: 415.5px;
+        height:96px;
+        
     }
 
 
