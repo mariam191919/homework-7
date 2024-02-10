@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header media-header"> 
             
                     <img class="logo" src="image/Logo (Black).svg" alt="logo">
                     <a href="index.html" alt="#"></a>
                     <nav>
-                        <ul class="nav-ul" >
+                        <ul class="nav-ul media-ul" >
                 <li class="nav-li">Link 1</li>
                 <li class="nav-li">Link 2</li>
                 <li class="nav-li">Link 3</li>
@@ -25,13 +28,17 @@
                         </ul>
 
                     </nav>
+                    <div class="burger-bar">
+                        <i class="fa-solid fa-bars"></i>
+
+                    </div>
                 <div>
                 <img src="image/CTA-Button (Black).png" alt="but">
             </div>
     </header>
     <main>
         <section class="first-section">
-            <div class="left-div">
+            <div class="left-div media-left">
                 <h1>Medium length display headline</h1>
                 <p class="p-length">Separated they live in Bookmarks right at the coast of the famous Semantics, large language </p>
                 <div class="left-div-1">
@@ -75,7 +82,7 @@
 
         </section>
         <section class="third-section">
-            <div>
+            <div class="container flex">
                 <div class="left">
                     <img src="image/img (1).jpg" alt="#">
 

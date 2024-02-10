@@ -1,7 +1,6 @@
 .main-header{
     width: 100%;
     height: 96px;
-    margin: 0 auto;
     display: flex;
     padding-left: 32px;
     padding-right: 32px;
@@ -11,6 +10,9 @@
     top: 0;
     left: 0;
     background-color: white;
+}
+.burger-bar{
+    display: none;
 }
 
 
@@ -124,28 +126,32 @@ h2{
     vertical-align: middle;
 }
 .third-section{
-    width: 100%;
-    height:620px;
     background-color: #000000;
+    padding: 96px 0;
     
 }
+.container{
+    max-width: 1140px;
+    width:95%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    gap: 64px 133px;
+    align-items: center;
+}
+
 .left{
 width: 503.5px;
-height: 428px;
-padding: 10px;
-border-radius:  12px;
-margin-left: 100px;
-margin-right: 100px;
-display: inline-block;
-vertical-align: middle;
 
+
+}
+.left img{
+    width: 100%;
 }
 .right{
     width: 503.5px;
-   height: 264px;
-   gap: 16px;
-   display: inline-block;
-   vertical-align: middle;
+   
 
 }
 .right-p{
@@ -163,6 +169,7 @@ vertical-align: middle;
     height:564px;
     background-image: url(../image/cta.jpg);
     width: 100%;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
